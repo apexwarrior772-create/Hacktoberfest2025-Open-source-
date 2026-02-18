@@ -9,7 +9,7 @@ from difflib import get_close_matches
 data = json.load(open("data.json"))
 
 # fucntion to find the word
-
+dmdkd
 
 def translate(word):
     word = word.lower()
@@ -47,5 +47,6 @@ while word:
         print(output)
         print("enter another word or press enter to quit")
         word = input("Enter the word to find its meaning : ")
+
 
 
